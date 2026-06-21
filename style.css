@@ -22,6 +22,8 @@
   --border-color: #E8F5E4;
   --bubble-bot-bg: #ffffff;
   --bubble-bot-color: #1E3A14;
+  --heading-color: #3A8A2A;
+  --strong-color: #2D6B20;
 }
 
 [data-theme="dark"] {
@@ -38,6 +40,8 @@
   --shadow: 0 4px 20px rgba(0,0,0,0.3);
   --bubble-bot-bg: #243020;
   --bubble-bot-color: #e0f0d8;
+  --heading-color: #7dd87a;
+  --strong-color: #a0e898;
 }
 
 html, body { height: 100%; font-family: 'Poppins', sans-serif; background: var(--bg-main); color: var(--text-dark); overflow: hidden; }
@@ -134,14 +138,14 @@ html, body { height: 100%; font-family: 'Poppins', sans-serif; background: var(-
 /* ===== MARKDOWN STYLES ===== */
 .message.bot .message-bubble h1,
 .message.bot .message-bubble h2,
-.message.bot .message-bubble h3 { margin: 10px 0 6px 0; font-weight: 700; color: var(--green-dark); }
+.message.bot .message-bubble h3 { margin: 10px 0 6px 0; font-weight: 700; color: var(--heading-color); }
 .message.bot .message-bubble h1 { font-size: 1.1em; }
 .message.bot .message-bubble h2 { font-size: 1.05em; }
 .message.bot .message-bubble h3 { font-size: 1em; }
 .message.bot .message-bubble ul,
 .message.bot .message-bubble ol { margin: 8px 0; padding-left: 20px; }
 .message.bot .message-bubble li { margin: 4px 0; }
-.message.bot .message-bubble strong { font-weight: 700; color: var(--green-darker); }
+.message.bot .message-bubble strong { font-weight: 700; color: var(--strong-color); }
 .message.bot .message-bubble em { font-style: italic; }
 .message.bot .message-bubble code { background: var(--green-light); padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
 .message.bot .message-bubble hr { border: none; border-top: 1px solid var(--border-color); margin: 10px 0; }
